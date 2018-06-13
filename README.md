@@ -5,14 +5,14 @@ Adding a bundler
 	* Browserify
 	* JSPM
 
-* Adding webpack-dev-middleware to devServer.js
+Adding webpack-dev-middleware to devServer.js
 
-* Sourcemaps
+Sourcemaps
 	* allows debugging compiled into original source
 	* only get downloaded when dev tools are opened
 	* sourcemaps created thru webpack.config.js
 
-* ESLint watching
+ESLint watching
 	* webpack eslint-loader
 	* eslint-watch
 		* ESLint wrapper that adds file watching
