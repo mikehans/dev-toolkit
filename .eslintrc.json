@@ -1,0 +1,19 @@
+{
+	"root": true,
+	"parserOptions": {
+		"ecmaVersion": 7,
+		"sourceType": "module"
+	},
+	"extends": "eslint:recommended",
+	"env": {
+		"browser": true,
+		"node": true,
+		"jasmine": true
+	},
+	"rules": {
+		"semi": ["error", "always"],
+		"eqeqeq": "warn",
+		"quotes":["warn", "single"],
+		"no-console":"warn"
+	}
+}
